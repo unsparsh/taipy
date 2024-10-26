@@ -58,7 +58,7 @@ class _CreateCLI(_AbstractCLI):
     @classmethod
     def handle_command(cls):
         args = cls._parse_arguments()
-        if not args:
+        if not arguments:
             return
         try:
             cookiecutter(cls._template_map[args.application])

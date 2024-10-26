@@ -32,7 +32,7 @@ class _HelpCLI(_AbstractCLI):
     @classmethod
     def handle_command(cls):
         args = cls._parse_arguments()
-        if not args:
+        if not arguments:
             return
 
         if args.command:
